@@ -64,6 +64,7 @@ From UI point of view (with Google Chrome web browser):
 As Content Delivery API was coming with its limitation (for example: "The include array is not applicable while retrieving a single entry." from [here](https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/entries/entry) I needed to make more requests which slows down the app.
 
 ## Top priorities for application upgrade
+- Fix an inconsistent behavior with recipe name size of font in the index view in Firefox
 - Implement caching
 - Reduce the number of requests
 - Acquire documentation of the API (what fields are mandatory, type of fields and so on) and write tests based on the documentation
