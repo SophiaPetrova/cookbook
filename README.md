@@ -2,7 +2,7 @@
 My solution to the [Marley Spoon web challenge](https://github.com/SophiaPetrova/cookbook/blob/master/original_task.md)
 
 ## Initial setup
-Please install Ruby 2.7.1 ([prefferebly through rbenv](https://github.com/rbenv/rbenv). 
+Please install Ruby 2.7.1 (prefferebly through [rbenv](https://github.com/rbenv/rbenv)). 
 If you do not have bundler please install it with running `gem install bundler`
 In the Gemfile are the rest of the dependencies and to install them run `bundle install` in the terminal.
 
