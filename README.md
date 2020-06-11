@@ -22,7 +22,7 @@ For CSS stylesheet I used Bootstrap 4.5.0 as base.
 From the beginning, I was driven to write easy to understand software, well-balanced with the complexity of the task.
 I choose Sinatra as its leightweight is fitting good to the compexity of the task. I choose to use Bootstrap 4 as a base for the CSS. 
 
-###List view
+### List view
 - Display a preview of all recipes, including:
   - Title
   - Image
