@@ -1,12 +1,12 @@
 # cookbook
 My solution of the Marley Spoon web challenge
 
-##Initial setup
+## Initial setup
 Please install the latest Ruby in the time of writing the app: Ruby 2.7.1. 
 In the Gemfile are the rest of the dependecies. If you have bundler run `bundle install` in the terminal and if not install it with `gem install bundler`.
 
 ## Run the server:
-Run `ruby cookbook.rb` in the cookbook folder in the terminal
+Run `ruby cookbook.rb` in the cookbook folder in the terminal and open http://localhost:4567/ 
 
 ## Dependencies
 I decided to use Sinatra with Ruby 2.7.1 for this task. 
