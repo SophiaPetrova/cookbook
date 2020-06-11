@@ -2,19 +2,20 @@
 My solution to the Marley Spoon web challenge
 
 ## Initial setup
-Please install the latest Ruby in the time of writing the app: Ruby 2.7.1 ([prefferebly through rbenv](https://github.com/rbenv/rbenv). 
-In the Gemfile are the rest of the dependencies. If you have bundler run `bundle install` in the terminal and if not install it with `gem install bundler`.
+Please install Ruby 2.7.1 ([prefferebly through rbenv](https://github.com/rbenv/rbenv). 
+If you do not have bundler please install it with running `gem install bundler`
+In the Gemfile are the rest of the dependencies and to install them run `bundle install` in the terminal.
 
 ## Run the server:
-Run `ruby cookbook.rb` in the cookbook folder in the terminal and open http://localhost:4567/ 
+Run `ruby cookbook.rb` in the project folder in the terminal and open http://localhost:4567/ 
 
 ## Dependencies
 I decided to use Sinatra with Ruby 2.7.1 for this task. 
-I am using HAML as I prefer it than ERB.
+I am using HAML as it makes the code cleaner in my opinion.
 Gem rdiscount is helping me render the markdown which is included in some of the descriptions of recipes. 
 Gem dotenv is used to load environment variables from .env into ENV in development.
 
-During the development process to ensure that the ruby style guide was followed I ran my code through rubocop and for debugging I used pry. Both of them are removed as they are only needed in the development process. 
+During the development process to ensure that the ruby style guide was followed I ran my code through rubocop and for debugging I used pry. 
 
 For CSS stylesheet I used Bootstrap 4.5.0 as a base.
 
