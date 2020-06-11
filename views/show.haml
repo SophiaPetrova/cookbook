@@ -1,0 +1,20 @@
+.container.mt-5
+  .row
+    %h3.col-12.text-center
+      = @recipe["fields"]["title"]
+  .row.d-flex.flex-row.justify-content-center
+    - if @recipe["fields"]["tags"]
+      - @recipe['fields']['tags'].each do |tag|
+        %span.bg-warning.mx-2.strong.initialism.p-1.text-center.align-middle
+          = tag_name(tag['sys']['id'])
+  .row
+    %img.col-12.my-3.rounded-circle.w-75.rounded-circle.align-bottom{:src => "#{image_url(@recipe["fields"]["photo"]["sys"]["id"])}"}
+  %p
+    = markdown(@recipe["fields"]["description"])
+  %p.float-left
+    Calories:
+    = @recipe["fields"]["calories"]
+  - if @recipe["fields"]["chef"]
+    %p.float-right
+      Chef:
+      = chef_name(@recipe["fields"]["chef"]["sys"]["id"])

@@ -1,0 +1,51 @@
+.container-fluid {
+  background-color: #f6f6f6;
+  font-family:'Courier New';
+}
+
+.navbar {
+  z-index: 1;
+}
+
+.navbar a:hover span {
+  text-shadow: 2px 2px black;
+  color: #FED463;
+}
+
+.title {
+  font-size: 45px;
+  display: table;
+  margin: 0 auto;
+  color: black;
+  text-shadow: 2px 2px #FED463;
+  text-decoration: none !important;
+}
+
+.border {
+  border: 20px solid;
+  background-color: #FED463;
+}
+
+.recipe{
+  max-height: 450px;
+  font-size: 4vw;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.recipe a:hover span {
+  background-color: black;
+  color: #FED463;
+}
+
+.recipe-title {
+  display: table;
+  margin: 0 auto;
+  top: 50%;
+  color: white;
+  font-size: 18px;
+  background-color: #453F43;
+  text-decoration: none;
+}
