@@ -18,5 +18,8 @@ During the development process to ensure that ruby style guide was followed I ra
 
 For CSS stylesheet I used Bootstrap 4.5.0 as base.
 
-## Approach
+## Application
 From the beginning, I was driven to write easy to understand software, well-balanced with the complexity of the task. 
+
+![Recipes list](https://photos.app.goo.gl/gtdihERBsh3ttJkX7)
+![Single Recipe](https://photos.app.goo.gl/3Ak74UfZ4Ws1TJ2q9)
