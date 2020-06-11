@@ -26,7 +26,7 @@ I choose Sinatra as its leightweight is fitting good to the compexity of the tas
 - Display a preview of all recipes, including:
   - Title
   - Image
-![Recipes list](https://www.webpagescreenshot.info/#v2=XUHAIM3qO)
+![Recipes list](https://www.webpagescreenshot.info/image-url/XUHAIM3qO)
 ### Details View
 - Display all the data for a recipe:
   - Title
@@ -35,7 +35,7 @@ I choose Sinatra as its leightweight is fitting good to the compexity of the tas
   - Description
   - Chef Name
   - Calouries
-![Single Recipe](https://www.webpagescreenshot.info/#v2=IeZQV3g13)
+![Single Recipe](https://www.webpagescreenshot.info/image-url/IeZQV3g13)
 
 ## Design trade-offs or short-cuts
 As Content Delivery API was coming with its limitation (for examle: "The include array is not applicable while retrieving a single entry." from [here](https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/entries/entry) I needed to make more requests which slows down the app.
