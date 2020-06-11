@@ -41,7 +41,7 @@ In public/css is the css file which is used for enriching bootstrap
 
 In helpers folder is the api_calls file with ApiCalls module in which are the methods with all the API calls made to Content Delivery API
 
-From UI point of view:
+From UI point of view (with Google Chrome web browser):
 ### List view
 - Display a preview of all recipes, including:
   - Title
