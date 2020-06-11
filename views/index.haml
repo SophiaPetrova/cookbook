@@ -2,7 +2,7 @@
   - receipt_id = recipe["sys"]["id"]
   .container.recipe.my-5.float-left.w-50.d-flex.justify-content-center.border.rounded-circle
     %a{href: "/recipes/#{receipt_id}"}
-      %span.recipe-title.position-relative.text-center.align-self-center.align-content-center.align-middle
+      %span.recipe-title.position-relative
         = recipe["fields"]["title"]
-      %img.w-100.rounded-circle.align-bottom.recipe-img{src: "#{image_url(recipe["fields"]["photo"]["sys"]["id"])}"}
+      %img.w-100.rounded-circle{src: "#{image_url(recipe["fields"]["photo"]["sys"]["id"])}"}
 

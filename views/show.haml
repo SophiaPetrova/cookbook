@@ -5,10 +5,10 @@
   .row.d-flex.flex-row.justify-content-center
     - if @recipe["fields"]["tags"]
       - @recipe['fields']['tags'].each do |tag|
-        %span.bg-warning.mx-2.strong.initialism.p-1.text-center.align-middle
+        %span.bg-warning.mx-2.initialism.p-1
           = tag_name(tag['sys']['id'])
   .row
-    %img.col-12.my-3.rounded-circle.w-75.rounded-circle.align-bottom{:src => "#{image_url(@recipe["fields"]["photo"]["sys"]["id"])}"}
+    %img.col-12.my-3.rounded-circle.w-75.rounded-circle{:src => "#{image_url(@recipe["fields"]["photo"]["sys"]["id"])}"}
   %p
     = markdown(@recipe["fields"]["description"])
   %p.float-left
