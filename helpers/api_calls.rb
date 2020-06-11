@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'net/http'
 require 'uri'
 require 'json'
@@ -5,7 +7,9 @@ require 'json'
 module Sinatra
   module ApiCalls
     def recipes
-      uri = URI.parse(ENV['BASE_URL'] + "entries?content_type=recipe&access_token=#{ENV['ACCESS_TOKEN']}&select=sys.id,fields.title,fields.photo")
+      uri = URI.parse(ENV['BASE_URL'] + 'entries?content_type=recipe'\
+                                        "&access_token=#{ENV['ACCESS_TOKEN']}"\
+                                        '&select=sys.id,fields.title,fields.photo')
       JSON.parse(Net::HTTP.get(uri))
     end
 
@@ -16,7 +20,11 @@ module Sinatra
     end
 
     def show_recipe(recipe_id)
-      uri = URI.parse(ENV['BASE_URL'] + "entries/#{recipe_id}?content_type=recipe&access_token=#{ENV['ACCESS_TOKEN']}&select=sys.id,fields.title,fields.photo,fields.description,fields.calories,fields.chef,fields.tags")
+      uri = URI.parse(ENV['BASE_URL'] + "entries/#{recipe_id}?content_type=recipe"\
+                                        "&access_token=#{ENV['ACCESS_TOKEN']}"\
+                                        '&select=sys.id,fields.title,fields.photo,'\
+                                        'fields.description,fields.calories,'\
+                                        'fields.chef,fields.tags')
       JSON.parse(Net::HTTP.get(uri))
     end
 

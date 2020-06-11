@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org' do
-  gem 'sinatra'
-  gem 'haml'
-  gem 'pry'
-  gem 'rdiscount' # needed for markdown handling
-  gem 'dotenv' # separation of env variables
+  gem 'dotenv'    # load env variables from .env into ENV in development
+  gem 'haml'      # HTML abstraction markup language
+  gem 'rdiscount' # render markdown
+  gem 'sinatra'   # DSL for creating web applications in Ruby
 end
