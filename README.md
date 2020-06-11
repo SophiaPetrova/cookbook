@@ -71,6 +71,8 @@ In helpers folder is the api_calls file with ApiCalls module in which are the me
 As Content Delivery API was coming with its limitation (for example: "The include array is not applicable while retrieving a single entry." from [here](https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/entries/entry) I needed to make more requests which slows down the app.
 
 ## Top priorities for application upgrade
+- Test with more data (and how the app is going to handle requesting it)
+- Change the views according to the data ( for example I would have switched to 3 or 4 recipes per row in index if i had more recipes)
 - Test with more web browsers
 - Implement caching
 - Reduce the number of requests
