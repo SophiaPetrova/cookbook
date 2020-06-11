@@ -35,6 +35,8 @@ One of my main goals was to achieve responsive, mobile first design.
 
 During the development I used Postman for learning the API and planning the application.
 
+## Architecture
+
 The application consists of:
 
 cookbook.rb which is the main app
@@ -45,7 +47,8 @@ In public/css is the css file which is used for enriching bootstrap
 
 In helpers folder is the api_calls file with ApiCalls module in which are the methods with all the API calls made to Content Delivery API
 
-From UI point of view (screenshots from Google Chrome web browser):
+## User Interface (screenshots from Google Chrome web browser)
+
 ### List view
 - Display a preview of all recipes, including:
   - Title
