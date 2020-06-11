@@ -29,7 +29,19 @@ From the beginning, I was driven to write easy to understand software, well-bala
 
 I choose Sinatra as a lightweight alternative fitting well to the current task. I choose to use Bootstrap 4 as a base for the CSS. 
 
+During the development I used Postman for learning the API and planning the application.
+
 The application consists of:
+
+cookbook.rb which is the main app
+
+In views folder are the haml files
+
+In public/css is the css file which is used for enriching bootstrap
+
+In helpers folder is the api_calls file with ApiCalls module in which are the methods with all the API calls made to Content Delivery API
+
+From UI point of view:
 ### List view
 - Display a preview of all recipes, including:
   - Title
