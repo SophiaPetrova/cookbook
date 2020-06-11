@@ -21,5 +21,5 @@ For CSS stylesheet I used Bootstrap 4.5.0 as base.
 ## Application
 From the beginning, I was driven to write easy to understand software, well-balanced with the complexity of the task. 
 
-![Recipes list](https://photos.app.goo.gl/gtdihERBsh3ttJkX7)
-![Single Recipe](https://photos.app.goo.gl/3Ak74UfZ4Ws1TJ2q9)
+![Recipes list](https://lh3.googleusercontent.com/pw/ACtC-3dQmSX8dzpCqUdxqgAOxscLwxw5U22cmoM7rL5Toha00auzbqFdDH7gOpo_R6GQD25YcWWHBe0KjxW1Eb9iYr_-Ee383XgzClgOnvTdPdtgXRxcIdsGatMbbVV5rNuGX1q1hLAeqUT_h9HdXaEbi6mVZw=w2160-h1046-no?authuser=0)
+![Single Recipe](https://lh3.googleusercontent.com/pw/ACtC-3fmIWch_QA0UjPQwTBSq83ffNY1Zf14n3PhTAUj4Ta47mmgxEcfCwJIwVdRbBOowrQY5K0-w-Q9L064kzPBcvSGG5Xf6yRPRNhKz-rSmsE-H_w-3NSMYdN2MGyCO_su21gIJvKRszMC25EqjeXymm8qPg=w2160-h1040-no?authuser=0)
