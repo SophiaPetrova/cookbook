@@ -29,6 +29,10 @@ From the beginning, I was driven to write easy to understand software, well-bala
 
 I choose Sinatra as a lightweight alternative fitting well to the current task. I choose to use Bootstrap 4 as a base for the CSS. 
 
+I was developing it using primarily Google Chrome but I tested it as well with Mozilla Firefox. 
+
+One of my main goals was to achieve responsive, mobile first design.
+
 During the development I used Postman for learning the API and planning the application.
 
 The application consists of:
@@ -41,7 +45,7 @@ In public/css is the css file which is used for enriching bootstrap
 
 In helpers folder is the api_calls file with ApiCalls module in which are the methods with all the API calls made to Content Delivery API
 
-From UI point of view (with Google Chrome web browser):
+From UI point of view (screenshots from Google Chrome web browser):
 ### List view
 - Display a preview of all recipes, including:
   - Title
@@ -64,7 +68,7 @@ From UI point of view (with Google Chrome web browser):
 As Content Delivery API was coming with its limitation (for example: "The include array is not applicable while retrieving a single entry." from [here](https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/entries/entry) I needed to make more requests which slows down the app.
 
 ## Top priorities for application upgrade
-- Fix an inconsistent behavior with recipe name size of font in the index view
+- Test with more web browsers
 - Implement caching
 - Reduce the number of requests
 - Acquire documentation of the API (what fields are mandatory, type of fields and so on) and write tests based on the documentation
