@@ -1,8 +1,8 @@
-# Welcome to the Marley Spoon web challenge!
+# Welcome to the web challenge!
 
 ## Overview
 
-We are providing you with an API key and Space ID to an API for Marley Spoon recipes on [Contentful](https://contentful.com) (Content Delivery API). All the information necessary will be available in Contentul's documentation.
+We are providing you with an API key and Space ID to an API for recipes on [Contentful](https://contentful.com) (Content Delivery API). All the information necessary will be available in Contentul's documentation.
 Your challenge is to write a small application to consume the data from this API and display it.
 
 ## Implementation requirements:
