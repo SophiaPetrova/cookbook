@@ -1,5 +1,5 @@
 # cookbook
-My solution to the [Marley Spoon web challenge](https://github.com/SophiaPetrova/cookbook/blob/master/original_task.md)
+My solution to the following [web challenge](https://github.com/SophiaPetrova/cookbook/blob/master/original_task.md)
 
 ## Initial setup
 Please install Ruby 2.7.1 (prefferebly through [rbenv](https://github.com/rbenv/rbenv)). 
